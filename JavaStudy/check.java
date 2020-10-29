@@ -19,11 +19,13 @@ public class Check{
         }
         System.out.println();
         for (int i = 0; i < data.length-1; i++) {
-            for (int j = i+1; j > i ; j--) {
+            // iで出した数字の横にiより大きい数を表示してまた戻る
+            for (int j = i+1; j > i; j--) {
                 /*
                 * 問3
                 * 以下、配列の添字を入れてソートを完成させなさい
                 */
+            
                 if(data[i] > data[j]){
                   int box = data[j];
                   data[j] = data[i];
