@@ -29,7 +29,7 @@ public class Study {
 
         // 問② 以下の「Calendar.MONTH) + 1」の処理は、想定していない値となる可能性があります。
         // その理由をコメントへ記述してください。
-        // [Januaryが0の値でひと月マイナス換算になっているから]
+        // [実際の月がマイナス１の値を保持しているから]
         System.out.println(calendar.get(Calendar.YEAR));
         System.out.println(calendar.get(Calendar.MONTH) + 1);
         System.out.println(calendar.get(Calendar.DATE));
