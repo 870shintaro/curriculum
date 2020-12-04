@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.header_div{
+	background-color: gray;
+	color: white;
+	margin-bottom:50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+span{
+	color:black;
+	font-size:10px;
+	padding-left:20px;
+}
+.hooter_div{
+	background-color: gray;
+	color: white;
+	margin-top:50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.hoge{
+	margin-left:24px;
+}
