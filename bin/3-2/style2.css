@@ -67,7 +67,7 @@
 
 @media screen and (max-width:767px) {
     .wrapper{
-        width: 300px;
+        width: 300px ;
     }
     .side {
         width: 100px;
@@ -86,7 +86,7 @@
     }
 }
 
-@media screen and (max-width:497px) {
+@media screen and (max-width:479px) {
     .wrapper {
         width: 150px;
     }
